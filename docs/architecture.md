@@ -17,8 +17,6 @@ The `BigInt` calculator is designed to overcome the limitations of fixed-precisi
    - Provides a command-line interface for users to interact with the calculator.
    - Parses user input and invokes appropriate operations on `BigInt` instances.
 
----
-
 ## `BigInt` Class Design
 
 ### Attributes
@@ -52,16 +50,12 @@ The `BigInt` calculator is designed to overcome the limitations of fixed-precisi
 - Input validation ensures only non-negative integers are accepted.
 - Explicit handling for exceptional cases such as division by zero and negative results from subtraction.
 
----
-
 ## REPL Design
 
 The Read-Eval-Print Loop (REPL) serves as an interface for the `BigInt` class:
 - **Input Parsing**: Recognizes mathematical operators (`+`, `-`, `*`, `/`, `!`) and splits operands.
 - **Execution**: Maps user commands to corresponding `BigInt` methods.
 - **Output Formatting**: Displays results in a human-readable format, including quotient and remainder for division.
-
----
 
 ## Design Principles
 
@@ -78,8 +72,6 @@ The Read-Eval-Print Loop (REPL) serves as an interface for the `BigInt` class:
 
 4. **Reusability**:
    - The `BigInt` class can be used independently in other projects requiring arbitrary-precision integers.
-
----
 
 ## Limitations
 - Only supports non-negative integers.
